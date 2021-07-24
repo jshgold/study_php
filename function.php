@@ -23,6 +23,23 @@
         <h2>nl2br</h2>
         <?php
         echo nl2br($str);
-        ?> 
+        print("<br/>");
+        function basic(){
+            print("babo<br>");
+            print("mongcongyi<br>");
+        }
+
+        basic();
+        ?>
+        
+        
+        <h2>file Save</h2>
+        <?php
+        function sum($left,$right){
+            return $left+$right;
+        }
+        file_put_contents("result.txt",sum(3,4));
+        
+        ?>
 </body>
 </html>
