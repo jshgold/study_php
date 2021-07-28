@@ -1,1 +1,4 @@
 home is home!
+<script>
+alert('바보');
+</script>
